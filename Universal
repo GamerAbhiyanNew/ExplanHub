@@ -625,8 +625,8 @@ Title = "Message",
 Text = "Successfully Executed"
 })
 end)
-Section:NewButton("Don't Press If You Want Your Account to Be Safe 💀", "", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
+Section:NewButton("The Intruder", "", function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/MINESHAFT-The-Intruder-All-chapters-has-features-10210"))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed"
