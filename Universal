@@ -641,6 +641,20 @@ Title = "Message",
 Text = "Successfully Executed The Intruder"
 })
 end)
+Section:NewButton("UNOfficial", "", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BloodyHax/Bloody-Hub-Universal/main/Universal%20Bloody", true))()
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed UNOfficial"
+})
+end)
+Section:NewButton("Slap Battles", "", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BloodyHax/Bloody-Hub-Universal/main/Slap%20Battles", true))()
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed Slap Battles"
+})
+end)
 local Section = Tab:NewSection("【🔲】GUI / HUB")
 Section:NewButton("Give me another GUI / HUB script", "This it Not Button", function()
 	
@@ -736,13 +750,6 @@ Section:NewButton("Universal Explan HUB | 【V3.5】", "", function()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed Universal Explan HUB | 【V3.5】"
-})
-end)
-Section:NewButton("Explan Test HUB", "", function()
-	
-starterGui:SetCore("SendNotification",{
-Title = "Message",
-Text = "ERROR TO EXECUTING"
 })
 end)
 Section:NewButton("Credit", "What?, Wanna A Key?", function()
