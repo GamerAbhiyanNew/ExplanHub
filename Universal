@@ -199,7 +199,6 @@ Text = "Successfully Executed Sxrge Hub"
 })
 end)
 local Section = Tab:NewSection("【💬】Other")
-local Section = Tab:NewSection("Into A-Z")
 Section:NewButton("auto piano", " ", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc Scripts/PianoAutoplayer.lua",true))()
 starterGui:SetCore("SendNotification",{
@@ -371,7 +370,6 @@ Title = "Message",
 Text = "Successfully Executed FE Kill"
 })
 end)
-
 Section:NewButton("FE Free Emote", " ", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
 starterGui:SetCore("SendNotification",{
@@ -401,8 +399,8 @@ Title = "Message",
 Text = "Successfully Executed Survive The Killer | ChairWare"
 })
 end)
-Section:NewButton("Doors | MSDOORS", " ", function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+Section:NewButton("Doors | MSDOORS 2.4 Working", " ", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/mstudio45/MSDOORS/7bd97c2d956a775d683c2d7973d79715b30998ea/MSDOORS/Moonsec.lua'))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed Doors | MSDOORS"
@@ -429,7 +427,6 @@ Title = "Message",
 Text = "Successfully Executed Doors | DarkRai X"
 })
 end)
-
 Section:NewButton("Doors | Nerd V4", " ", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsnerdv4.lua"))()
 starterGui:SetCore("SendNotification",{
@@ -465,7 +462,7 @@ Title = "Message",
 Text = "Successfully Executed Rainbow Friend"
 })
 end)
-Section:NewButton("Rainbow Friends | BorkWare", "IDK WHAT SCRIPT ", function()
+Section:NewButton("Rainbow Friends | BorkWare", "IK THE SCRIPT ", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
 starterGui:SetCore("SendNotification",{
 Title = "Message",
@@ -565,7 +562,7 @@ Section:NewButton("Blox Fruit", " ", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/bf1", true))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
-Text = "Successfully Executed" Blox Fruit
+Text = "Successfully Executed" Blox Fruit"
 })
 end)
 Section:NewButton("Get To The Top", " ", function()
@@ -682,7 +679,7 @@ Text = "Successfully Executed Admin Gui"
 })
 end)
 local Section = Tab:NewSection("HUB")
-Section:NewButton("No Hub Found, Sorry", " ", function()
+Section:NewButton("No Hub Found, Sorry :)", " ", function()
 	
 end)
 local Tab = Window:NewTab("Credit")
