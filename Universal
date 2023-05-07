@@ -77,11 +77,11 @@ local Section = Tab:NewSection("I Still Recommend To Always Press This After Exe
 local Section = Tab:NewSection("This Script")
 local Section = Tab:NewSection("Press This Button To Bring Up Toggle Back")
 Section:NewButton("Rejoin Button On Disconnected", "Recommended Auto Executed", function()
-	starterGui:SetCore("SendNotification",{
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua"))()
+starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed Rejoin Button On Disconnecter And Just Press Once"
 })
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua"))()
 end)
 local Tab = Window:NewTab("Home")
 local Section = Tab:NewSection("Speed")
@@ -517,7 +517,7 @@ Text = "Successfully Executed Cart Ride Around Nothing"
 })
 end)
 Section:NewButton("Break In V1", " ", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed Break In V1"
